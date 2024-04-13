@@ -7,40 +7,45 @@
     <title>World Clock - Alexia Veinoglou</title>
   </head>
   <body>
-    <main>
-      <div class="container">
-        <h1>World Clock</h1>
-        <select name="" id="">
-          <option value="">🔍 Select a city</option>
-          <option value="">London</option>
-          <option value="">New York</option>
-          <option value="">Singapore</option>
-        </select>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select name="" id="">
+        <option value="">Select a city</option>
+        <option value="">Athens</option>
+        <option value="">Paris</option>
+        <option value="">Madrid</option>
+      </select>
 
-        <div class="city">
+      <div class="city">
+        <div class="name-time">
           <div class="city-name">
-            <h2>Athens 🇬🇷</h2>
+            <h2>New York 🇺🇸</h2>
           </div>
-          <div class="city-date">15:07:48</div>
-          <div class="city-date">Saturday, 13th April 2024</div>
+          <div class="city-time">03:07:48 <small>PM</small></div>
         </div>
-        <div class="city">
-          <div class="city-name"><h2>Paris 🇫🇷</h2></div>
-          <div class="city-date">15:07:48</div>
-          <div class="city-date">Saturday, 13th April 2024</div>
-        </div>
-        <div class="city">
-          <div class="city-name"><h2>Madrid 🇪🇸</h2></div>
-          <div class="city-date">15:07:48</div>
-          <div class="city-date">Saturday, 13th April 2024</div>
-        </div>
+        <div class="city-date">Saturday, 13th April 2024</div>
       </div>
-    </main>
-    <br />
+      <div class="city">
+        <div class="name-time">
+          <div class="city-name"><h2>London 🇬🇧</h2></div>
+          <div class="city-time">03:07:48 <small>PM</small></div>
+        </div>
+        <div class="city-date">Saturday, 13th April 2024</div>
+      </div>
+      <div class="city">
+        <div class="name-time">
+          <div class="city-name"><h2>Singapore 🇸🇬</h2></div>
+          <div class="city-time">03:07:48 <small>PM</small></div>
+        </div>
+        <div class="city-date">Saturday, 13th April 2024</div>
+      </div>
+    </div>
+
     <footer>
       This project was coded by
-      <a href="https://github.com/LexyVng" target="_blank">Alexia Veinoglou</a>,
-      is
+      <a href="https://github.com/LexyVng" target="_blank"
+        ><strong>Alexia Veinoglou</strong></a
+      >, is
       <a href="https://github.com/LexyVng/js-world-clock" target="_blank"
         >open-sourced on Github</a
       >
@@ -48,6 +53,7 @@
       <a href="https://js-world-clock-1.netlify.app/" target="_blank">Netlify</a
       >.
     </footer>
+
     <script src="javascript/index.js"></script>
   </body>
 </html>
