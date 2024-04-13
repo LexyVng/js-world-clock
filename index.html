@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock - Alexia Veinoglou</title>
   </head>
   <body>
@@ -16,38 +18,38 @@
         <option value="">Madrid</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="newyork">
         <div class="name-time">
           <div class="city-name">
             <h2>New York 🇺🇸</h2>
           </div>
-          <div class="city-time">03:07:48 <small>PM</small></div>
+          <div class="city-time"></div>
         </div>
-        <div class="city-date">Saturday, 13th April 2024</div>
+        <div class="city-date"></div>
       </div>
-      <div class="city">
+      <div class="city" id="london">
         <div class="name-time">
           <div class="city-name"><h2>London 🇬🇧</h2></div>
-          <div class="city-time">03:07:48 <small>PM</small></div>
+          <div class="city-time"></div>
         </div>
-        <div class="city-date">Saturday, 13th April 2024</div>
+        <div class="city-date"></div>
       </div>
-      <div class="city">
+      <div class="city" id="singapore">
         <div class="name-time">
           <div class="city-name"><h2>Singapore 🇸🇬</h2></div>
-          <div class="city-time">03:07:48 <small>PM</small></div>
+          <div class="city-time"></div>
         </div>
-        <div class="city-date">Saturday, 13th April 2024</div>
+        <div class="city-date"></div>
       </div>
     </div>
 
     <footer>
-      This project was coded by
+      Coded by
       <a href="https://github.com/LexyVng" target="_blank"
         ><strong>Alexia Veinoglou</strong></a
-      >, is
+      >, open-sourced on
       <a href="https://github.com/LexyVng/js-world-clock" target="_blank"
-        >open-sourced on Github</a
+        >Github</a
       >
       and hosted on
       <a href="https://js-world-clock-1.netlify.app/" target="_blank">Netlify</a

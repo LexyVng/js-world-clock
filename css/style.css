@@ -29,14 +29,14 @@ select {
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
   margin: 60px auto;
-  max-width: 600px;
+  max-width: 500px;
   padding: 20px 30px;
 }
 
 .city {
   background: #eaddcf;
   border-radius: 8px;
-  margin-top: 10px;
+  margin-top: 15px;
   opacity: 0.8;
   padding: 10px;
 }
