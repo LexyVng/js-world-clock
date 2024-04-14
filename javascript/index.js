@@ -60,7 +60,10 @@ citiesSelectElement.addEventListener("change", function (event) {
   setInterval(updateCity, 1000);
 
   function updateCity() {
-    let cityTimeZone = event.target.value;
+    let cityTimeZone = citiesSelectElement.value;
+    if (cityTimeZone === "current") {
+      cityTimeZone = moment.tz.guess();
+    }
     let cityTime = moment().tz(cityTimeZone);
     let cityName = cityTimeZone.replace("_", " ").split("/")[1];
     let citiesElement = document.querySelector("#cities");
