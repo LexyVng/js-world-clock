@@ -84,6 +84,7 @@ footer a {
 
 button {
   display: block;
+  font-size: 16px;
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #f25042;
