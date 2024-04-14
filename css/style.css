@@ -77,6 +77,18 @@ a {
   color: #f25042;
 }
 
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #f25f4c;
+  border-radius: 8px;
+  color: #fffffe;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 footer {
   color: #020826;
   font-size: 14px;

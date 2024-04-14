@@ -80,7 +80,8 @@ citiesSelectElement.addEventListener("change", function (event) {
          <div class="city-date">${cityTime.format("dddd, Do MMMM YYYY")}</div>
           
         </div>
-       
+        
+       <a href="/"><button>Go to Homepage</button></a>
   `;
   }
 });
