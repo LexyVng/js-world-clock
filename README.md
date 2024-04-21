@@ -1,25 +1,27 @@
 # JS WORLD CLOCK
-The JS World Clock is a web application that displays the current date and time of different timezones. The user can also select a city from the drop-down menu and view the date and time of that city. The data is retrieved from the library `Moment js`.
+The JS World Clock is a web application designed to provide users with the current date and time across different time zones. Users can easily select a city from the drop-down menu to instantly view the date and time of that city. The application utilizes Moment.js library for accurate time data retrieval.
 
 ## Motivation
 
-The main goal of the project was to demonstrate the use of the library `Moment js` to retrieve real-time data for various timezones.
+The primary objective of this project is to showcase the implementation of Moment.js library for fetching real-time data across various time zones, demonstrating its utility and functionality.
 
 ## Features
 
-- A homepage which includes a drop-down menu and the data of 3 different timezones
-- The drop-down menu was built using the `<select>` element and the `<optgroup>` element to group the cities based on their continent
-- Once the user selects a city from the drop-down menu:
-  - all content will be replaced by the date and time of the selected city
-  - a button will become available to redirect the user to the homepage
+- **Homepage Display**: The homepage features a user-friendly drop-down menu showcasing the date and time of three different time zones.
+- **Interactive Drop-down Menu**: The drop-down menu is constructed using HTML <select> and <optgroup> elements, categorizing cities based on their respective continents for easy navigation.
+- **Dynamic Content Update**: Upon selecting a city from the drop-down menu, the displayed content refreshes to reflect the date and time of the chosen city.
+- **User Navigation**: A dedicated button is provided to allow users to return to the homepage effortlessly.
 
 ## Technologies used
 
 This app was built using the following technologies:
 
-- HTML
-- CSS
-- JavaScript
+- **HTML**: Used for structuring the web pages.
+- **CSS**: Employed for styling and enhancing the visual presentation.
+- **JavaScript**: Utilized for implementing interactive functionalities and logic.
 
 ## Libraries used
-Moment js
+- **Moment.js**: Leveraged for efficient handling and retrieval of real-time data across different time zones.
+
+## License
+This project is licensed under the MIT License.
