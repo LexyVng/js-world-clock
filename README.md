@@ -8,7 +8,7 @@ The primary objective of this project is to showcase the implementation of Momen
 ## Features
 
 - **Homepage Display**: The homepage features a user-friendly drop-down menu showcasing the date and time of three different time zones.
-- **Interactive Drop-down Menu**: The drop-down menu is constructed using HTML <select> and <optgroup> elements, categorizing cities based on their respective continents for easy navigation.
+- **Interactive Drop-down Menu**: The drop-down menu is constructed using HTML `<select>` and `<optgroup>` elements, categorizing cities based on their respective continents for easy navigation.
 - **Dynamic Content Update**: Upon selecting a city from the drop-down menu, the displayed content refreshes to reflect the date and time of the chosen city.
 - **User Navigation**: A dedicated button is provided to allow users to return to the homepage effortlessly.
 
